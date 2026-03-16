@@ -4,7 +4,8 @@
   "description": "Design Studio 16 Attendance System",
   "main": "index.html",
   "scripts": {
-    "dev": "npx serve ."
+    "dev": "npx serve .",
+    "build": "echo 'No build needed'"
   },
   "dependencies": {
     "serve": "^14.2.4"
