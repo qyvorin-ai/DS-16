@@ -27,6 +27,14 @@ class App {
         // Seed data if first run
         DB.seed(SEED_EMPLOYEES);
 
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .catch(err => console.log('SW registration failed: ', err));
+            });
+        }
+
         // Handle routing
         window.addEventListener('popstate', () => this.route());
         this.route();
