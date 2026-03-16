@@ -1,0 +1,20 @@
+{
+  "name": "Design Studio 16 Workforce",
+  "short_name": "DS16",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#F37021",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/F37021/FFFFFF?text=DS16",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512/F37021/FFFFFF?text=DS16",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
